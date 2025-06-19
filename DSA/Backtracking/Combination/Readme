@@ -1,0 +1,6 @@
+
+Combinations
+All possible selections of k elements from a given set.
+Example: For [1, 2, 3] and k = 2, combinations are:
+		[1, 2], [1, 3], [2, 3]
+You choose exactly k elements (not all sizes).
