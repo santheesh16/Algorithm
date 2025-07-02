@@ -1,4 +1,4 @@
-package Structy;
+package Intro;
 
 public class LongestString {
     public static String longestWord(String sentence) {
