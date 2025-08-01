@@ -28,7 +28,8 @@ def best_bridge(grid):
       if inbounds(grid, neighbor_row, neighbor_col) and neighbor_pos not in visited:
         visited.add(neighbor_pos)
         queue.append((neighbor_row, neighbor_col, distance + 1))
-  
+
+
 def inbounds(grid, row, col):
   row_inbounds = 0 <= row < len(grid)
   col_inbounds = 0 <= col < len(grid[0])
