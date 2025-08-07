@@ -9,6 +9,7 @@ def cycle_detect(graph, node, visiting, visited):
     if node in visited:
         return False
 
+
     if node in visiting:
         return True
 
